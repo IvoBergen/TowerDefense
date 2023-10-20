@@ -1,30 +1,20 @@
 # TowerDefenseTemplate
-Dit is een template wat door jullie te gebruiken is voor het juist inleveren van alle producten voor de Towerdefense beroepsopdracht. **Verwijder uiteindelijk de template teksten!**
 
-Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Plaats ook een paar screenshots.
+"In deze game moet je de stad beschermen van aanvallende monsters, Plaats torens en verdedig de stad tegen de slijms!"
 
-![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
+![Een foto van het spel](image-1.png)
 
-![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
-
+![Start Scherm](image-2.png)
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
-Plaats hier minimaal 1 link naar scripts die voldoen aan de eisen van **"Don't Repeat Yourself (DRY)"** en **"Single Responsibility Principle"**.
-Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
+"in dit script maak ik gebruik van een array zodat ik de prefabs niet met meerdere variablen aan hoef te roepen wat het **DRY** maakt. Voor **SRP** heb ik elke fuctie die maar 1 functie uitvoert zoals bij *StartWave()* is het enigste wat die functie doet is de wave starten en *SpawnEnemy() en EndWave()* helpen daarbij om het wave systeem af te maken." 
 
-Bijvoorbeeld:
-
-*"In dit script heb ik een array gebruikt voor al mijn vijanden die in de nieuwe wave worden gespawnd. Hierdoor heb ik mijzelf niet hoeven herhalen **(DRY)** in de code omdat ik met 1 regel alle enemies kan plaatsen via en for each loop.
-[link naar script](/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs)"*
+[link naar script](TowerDefense/Assets/Scripts/EnemyScripts/EnemySpawner.cs)"
 
 ## Product 2: "Projectmappen op GitHub"
 
-Je commit de mappenstructuur van je unity project op github en verwijst vanuit je readme naar de root map van je project. Met een netjes en goed gestructureerde mappenstructuur en benamingen van files toon je aan dat je dit leerdoel beheerst. 
-
-Dit is de [ROOT](/MyTowerDefenseGame/) folder van mijn unity project.
-
-Zorg dat deze verwijst naar je Develop branch.
+Dit is de [ROOT](TowerDefense) folder van mijn unity project.
 
 ## Product 3: Build op Github
 
@@ -85,11 +75,12 @@ Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de spele
 
 *Onderbouwing hier...*
 
-## Product 7: Class Diagram voor volledige codebase 
+## Product 7: Class Diagram voor volledige codebase
 
-Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de ![ClassDiagram](image.png)
+![ClassDiagram](image.png)
 
 ## Product 8: Prototype test video
+
 Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je readme wat het idee van de mechanics is geweest wat je wilde testen en laat een korte video van de gameplay test zien. 
 
 [![example test video](https://ucarecdn.com/dbdc3ad0-f375-40ad-8987-9e6451b28b50/)](https://www.youtube.com/watch?v=CzzRML1swF0)
