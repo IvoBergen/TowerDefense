@@ -2,9 +2,9 @@
 
 "In deze game moet je de stad beschermen van aanvallende monsters, Plaats torens en verdedig de stad tegen de slijms!"
 
-![Een foto van het spel](image-1.png)
+![Image van het spel](image-1.png)
 
-![Start Scherm](image-2.png)
+![Image van het startScherm](image-2.png)
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
