@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8123400007588866420}
   - component: {fileID: 7862588508405067767}
   - component: {fileID: 2471071977968380203}
+  - component: {fileID: -2311359348663232175}
   m_Layer: 0
   m_Name: Plot
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -111,3 +112,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-2311359348663232175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5078084797202459624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a07cfa1f425f7fa4080e09ae46dd0430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 7862588508405067767}
+  hoverColor: {r: 0.4349858, g: 0.7984018, b: 0.8018868, a: 1}

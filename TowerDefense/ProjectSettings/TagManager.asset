@@ -3,16 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - path
   - Water
   - UI
-  - 
-  - 
+  - Enemy
+  - Bullet
   - 
   - 
   - 
@@ -40,4 +41,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: turrets
+    uniqueID: 2557234543
+    locked: 0
+  - name: enemy
+    uniqueID: 1600389817
     locked: 0

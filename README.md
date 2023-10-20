@@ -87,38 +87,7 @@ Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de spele
 
 ## Product 7: Class Diagram voor volledige codebase 
 
-Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de [“Mermaid”](https://mermaid.js.org/syntax/classDiagram.html) tool.
-
-
-```mermaid
----
-title: Animal example
----
-classDiagram
-    note "From Duck till Zebra"
-    Animal <|-- Duck
-    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-        +String beakColor
-        +swim()
-        +quack()
-    }
-    class Fish{
-        -int sizeInFeet
-        -canEat()
-    }
-    class Zebra{
-        +bool is_wild
-        +run()
-    }
-
-```
+Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de ![ClassDiagram](image.png)
 
 ## Product 8: Prototype test video
 Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je readme wat het idee van de mechanics is geweest wat je wilde testen en laat een korte video van de gameplay test zien. 
@@ -127,11 +96,7 @@ Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je rea
 
 ## Product 9: SCRUM planning inschatting 
 
-Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory d.m.v storypoints / zelf te bepalen eenheden. (bijv. Storypoints, Sizes of tijd) aan het begin van een nieuwe sprint update je deze inschatting per userstory. 
-
-Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
-
-[Link naar de openbare trello](https://trello.com/b/w60wkKSU/examen-paraphrenia)
+[Link naar de openbare trello](https://trello.com/b/9QFKsROT/scrum-board)
 
 ## Product 10: Gitflow conventions
 
