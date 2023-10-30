@@ -18,9 +18,7 @@ Dit is de [ROOT](TowerDefense) folder van mijn unity project.
 
 ## Product 3: Build op Github
 
-Je maakt in Unity een stabiele “build” van je game waarbij bugs en logs eerst zijn verwijderd. Deze buildfiles upload je in je repository onder releases.  Bij eventuele afwijkingen moeten deze worden gedocumenteerd in de release. (Bijv controller nodig of spelen via netwerk etc..)
-
-[Release Voorbeeld](https://github.com/erwinhenraat/TowerDefenseTemplate/releases)
+[Release](https://github.com/IvoBergen/TowerDefense/releases/tag/Release)
 
 ## Product 4: Game met Sprites(animations) en Textures
 
