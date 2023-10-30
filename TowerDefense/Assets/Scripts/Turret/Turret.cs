@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
-using UnityEditor.ShaderKeywordFilter;
 using Unity.Mathematics;
 
 public class Turret : MonoBehaviour
@@ -81,11 +80,6 @@ public class Turret : MonoBehaviour
         Quaternion targetRotation = Quaternion.Euler(new Vector3(0, 0, angle));
         turretRotationPoint.rotation = Quaternion.RotateTowards(turretRotationPoint.rotation,
             targetRotation, rotationSpeed * Time.deltaTime);
-    }
-    private void OnDrawGizmosSelected()
-    {
-        Handles.color = Color.cyan;
-        Handles.DrawWireDisc(transform.position, transform.forward, targetRange);
     }
 
 }

@@ -10,6 +10,7 @@ public class Plot : MonoBehaviour
     [SerializeField] private Color hoverColor;
     
     private GameObject tower;
+    private bool IsPlotFull = false;
     private Color startColor;
 
     private void Start()
@@ -31,8 +32,17 @@ public class Plot : MonoBehaviour
     {
         if (tower != null) return;
 
-        GameObject towerToBuild = BuildManager.main.GetSelectedTower();
-        Instantiate(towerToBuild, transform.position, Quaternion.identity);
+        if(IsPlotFull == false) 
+        { 
+            GameObject towerToBuild = BuildManager.main.GetSelectedTower();
+            Instantiate(towerToBuild, transform.position, Quaternion.identity);
+            IsPlotFull = true;
+        }
+        if(IsPlotFull == true) 
+        {
+            return;
+        }
+        
     }
 
 }
