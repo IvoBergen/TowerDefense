@@ -76,4 +76,6 @@ Dit is de [ROOT](TowerDefense) folder van mijn unity project.
 
 ## Product 10: Gitflow conventions
 
-"Ik heb de **develop** branch gebruikt om normale updates uit te voeren en ik gebruik de **master** branch voor release updates."
+"Ik heb de **develop** branch gebruikt om normale updates uit te voeren en ik gebruik de **master** branch voor release updates. Ik heb een **Feature** branch gemaakt voor het maken van de currency en de tower costs"
+
+![Screenshot van de featurebranch ending](<Screenshot 2023-11-05 160709-1.png>)
