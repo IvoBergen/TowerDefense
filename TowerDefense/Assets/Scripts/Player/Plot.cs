@@ -8,6 +8,7 @@ public class Plot : MonoBehaviour
     [Header("Refrences")]
     [SerializeField] private SpriteRenderer sr;
     [SerializeField] private Color hoverColor;
+    [SerializeField] private int TurretCost = 100;
     
     private GameObject tower;
     private bool IsPlotFull = false;
@@ -32,9 +33,10 @@ public class Plot : MonoBehaviour
     {
         if (tower != null) return;
 
-        if(IsPlotFull == false) 
+        if(IsPlotFull == false && LevelManager.main.currency >= 100) 
         { 
             GameObject towerToBuild = BuildManager.main.GetSelectedTower();
+            LevelManager.main.SpendCurrency(TurretCost);
             Instantiate(towerToBuild, transform.position, Quaternion.identity);
             IsPlotFull = true;
         }
